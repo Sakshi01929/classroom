@@ -14,6 +14,8 @@ class B {
 
 public class Mainmethod {
     public static void main(String[] args) {
+        A.main(null);
         System.out.println("hello.Main");
+
     }
 }
